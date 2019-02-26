@@ -1,5 +1,6 @@
 from math import ceil
 
+
 def _buildRecursive(array, index, end):
     if (2*index)+1 > end-1:
         return
